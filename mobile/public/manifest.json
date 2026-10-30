@@ -1,0 +1,19 @@
+{
+  "name": "小管家 · 每日生活管家",
+  "short_name": "小管家",
+  "description": "日程 / 待办 / 记账 / 提醒，一句话搞定",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e14",
+  "theme_color": "#0a0e14",
+  "orientation": "portrait",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

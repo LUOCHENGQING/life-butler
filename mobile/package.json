@@ -1,0 +1,21 @@
+{
+  "name": "life-butler-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001 -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start -p 3001 -H 0.0.0.0"
+  },
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "@types/node": "22.7.5",
+    "@types/react": "18.3.11",
+    "@types/react-dom": "18.3.0"
+  }
+}

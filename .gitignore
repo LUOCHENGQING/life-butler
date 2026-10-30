@@ -1,0 +1,46 @@
+# ===== 依赖与构建产物 =====
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+node_modules/
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# ===== 密钥（绝不能上传）=====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ===== 运行时数据（含个人隐私，不能上传）=====
+data/
+*.db
+*.db.bak-*
+*.db-journal
+*.db-wal
+*.db-shm
+公网地址.txt
+
+# ===== 日志与临时文件 =====
+*.log
+logs/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.cfprofile/
+.chrome-mobile-profile/
+
+# ===== 编辑器 =====
+.vscode/
+.idea/
+*.iml
+
+# 本地专用说明
+README-本地版.md
